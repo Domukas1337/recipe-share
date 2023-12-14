@@ -6,7 +6,7 @@ export default function RecipePost({id, recipe, image}: any) {
         <div className="">
             <div className="">
                 <div className="text-3xl">
-                    <Link href={`/recipes/${id}`}>{recipe}</Link>
+                    <Link href={`/api/${id}`}>{recipe}</Link>
                 </div>
             </div> 
         </div>

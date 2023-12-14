@@ -1,6 +1,6 @@
 -- CreateTable
 CREATE TABLE "Recipe" (
-    "id" TEXT NOT NULL PRIMARY KEY,
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
     "accountName" TEXT,
     "recipeName" TEXT NOT NULL,
     "ingredientsAll" TEXT NOT NULL

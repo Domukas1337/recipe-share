@@ -13,7 +13,7 @@ export default async function MainContent() {
     return (
         <div className="flex flex-col max-w-screen-xl mt-12 mx-auto border-2 border-gray-400">
             {recipes.map((recipe) => (
-                <RecipePost key={recipe.id} id={recipe.id} recipe={recipe.recipeName} />
+                <RecipePost key={recipe.id} id={Number(recipe.id)} recipe={recipe.recipeName} />
             ))}
         </div>
     )
